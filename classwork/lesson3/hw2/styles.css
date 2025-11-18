@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 24px
+}
+section h2 {
+    font-size: 36px;
+}
+section p {
+    font-size: 24px;
+    width: 80%;
+}
+
+.red {
+    background-color: #f4a5a5;
+}
+.black {
+    background-color: #232222;
+    color: white;
+}
