@@ -11,9 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid gray;
-    width: 150px;
-    height: 150px;
-    border-radius: 16px;
+    width: 200px;
+    height: 200px;
 }
 
 .rubik {
