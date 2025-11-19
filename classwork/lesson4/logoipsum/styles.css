@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border: none;
+}
+body {
+    padding-top: 30px;
+}
+.w-1070 {
+    width: 1070px;
+    margin: 0 auto;
+}
+/*--------------HEADER----------*/
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM sans', sans-serif;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+
+}
+header nav a {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+.nav__active_link {
+    border-bottom: 2px solid #5454D4;
+}
+header button {
+    border-radius: 10px;
+    width: 211px;
+    height: 60px;
+    background: #ff7143;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #fff;
+}
+/*------HERO---------*/
+.hero {
+    margin-top: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM sans", sans-serif;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 103%;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+
+.hero p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+.hero button {
+    border-radius: 10px;
+    width: 188px;
+    height: 60px;
+    background: #5454d4;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/*----------BRANDS---------*/
+.brands {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*----------CONTENT---------*/
+.content {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    font-family: "DM sans", sans-serif;
+}
+
+.content__text {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114%;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+.content a {
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #5454d4;
+}
