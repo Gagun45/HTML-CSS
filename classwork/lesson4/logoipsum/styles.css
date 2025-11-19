@@ -166,3 +166,115 @@ header button {
     letter-spacing: -0.03em;
     color: #696871;
 }
+/*---------PRICING----------*/
+.pricing {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 695px;
+}
+
+.pricing__heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 245px;
+}
+
+.pricing__heading h2 {
+    font-size: 60px;
+    width: 523px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+
+.periodBtns {
+    display: flex;
+    width: 346px;
+    height: 65px;
+    padding: 5px 13px;
+    border-radius: 10px;
+    background-color: #F7F7FB;
+}
+
+.periodBtns button {
+    width: 160px;
+    height: 55px;
+    color: #19191B;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.periodBtns button.active_period_btn {
+    background-color: #5454D4;
+    color: #ffffff;
+}
+
+.yearBtn {
+    border-radius: 10px 0 0 10px;
+}
+.monthBtn {
+    border-radius: 0 10px 10px 0;
+}
+
+.planCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.planCard {
+    border-radius: 10px;
+    background: #f8f8f8;
+    width: 330px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planCard h3 {
+    font-size: 60px;
+    line-height: 93%;
+    letter-spacing: -0.02em;
+    color: #1d293f;
+}
+
+.planCard h3 .month {
+    font-size: 28px;
+}
+
+.planCard__title {
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    font-size: 17px;
+    line-height: 294%;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+.planCard button {
+    border: 1px solid #eae9f2;
+    border-radius: 10px;
+    width: 285px;
+    height: 60px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #5454d4;
+}
+
