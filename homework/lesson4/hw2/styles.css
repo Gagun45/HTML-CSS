@@ -38,7 +38,7 @@ section article {
     height: 20vh;
 }
 
-article {
+article, aside {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,21 +57,21 @@ article {
     background: #441818;
 }
 
-aside {
+.spam_container {
     height: 100%;
     width: 27vw;
     display: flex;
     flex-direction: column;
 }
 
-aside article {
+.spam_container aside {
     height: 50%;
 }
 
-#aside__article__top {
+#aside__top {
     background: #937575;
 }
 
-#aside__article__bot {
+#aside__bot {
     background: #644c4c;
 }
