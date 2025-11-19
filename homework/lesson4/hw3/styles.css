@@ -18,20 +18,19 @@ header {
     width: 59vw;
     background-color: #A4A4A4;
 }
-.flex aside {
+.aside__div {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: red;
     width: 41vw;
 }
 
-#aside__article__top {
+#aside__top {
     height: 54vh;
     background: #7f7a7a;
 }
 
-#aside__article__bot {
+#aside__bot {
     height: 46vh;
     background: #615050;
 }
