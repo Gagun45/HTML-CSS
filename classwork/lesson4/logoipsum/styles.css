@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    padding: 30px 0 150px 0;
+    font-family: "DM sans", sans-serif;
+}
+
+.w-1070 {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*--------------HEADER----------*/
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+
+}
+
+header nav a {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+.nav__active_link {
+    border-bottom: 2px solid #5454D4;
+    color: #19191b;
+}
+
+header button {
+    border-radius: 10px;
+    width: 211px;
+    height: 60px;
+    background: #ff7143;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #fff;
+}
+
+/*------HERO---------*/
+.hero {
+    margin-top: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 103%;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+
+.hero p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    width: 409px;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+.hero button {
+    border-radius: 10px;
+    width: 188px;
+    height: 60px;
+    background: #5454d4;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/*----------BRANDS---------*/
+.brands {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*----------CONTENT---------*/
+.content {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+.content__text {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114%;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+.content a {
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #5454d4;
+}
+
+/*----------CARDS------------*/
+.cards {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 307px;
+    height: 208px;
+}
+
+.card img {
+    margin-left: 20%;
+    width: 95px;
+    height: 55px;
+}
+
+.card h2 {
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+
+.card p {
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+/*---------PRICING----------*/
+.pricing {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 695px;
+}
+
+.pricing__heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 245px;
+}
+
+.pricing__heading h2 {
+    font-size: 60px;
+    width: 523px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+
+.periodBtns {
+    display: flex;
+    width: 346px;
+    height: 65px;
+    padding: 5px 13px;
+    border-radius: 10px;
+    background-color: #F7F7FB;
+}
+
+.periodBtns button {
+    width: 160px;
+    height: 55px;
+    color: #19191B;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.periodBtns button.active_period_btn {
+    background-color: #5454D4;
+    color: #ffffff;
+}
+
+.yearBtn {
+    border-radius: 10px 0 0 10px;
+}
+
+.monthBtn {
+    border-radius: 0 10px 10px 0;
+}
+
+.planCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planCard {
+    border-radius: 10px;
+    background: #f8f8f8;
+    width: 330px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planCard.special {
+    width: 376px;
+    height: 473px;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+    background: #ff7143;
+}
+
+.planCard.special * {
+    color: white;
+}
+
+.planCard h3 {
+    font-size: 60px;
+    line-height: 93%;
+    letter-spacing: -0.02em;
+    color: #1d293f;
+}
+
+
+.planCard__title {
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+.planCard.special .planCard__title {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.planCard h3 .month {
+    font-size: 28px;
+}
+
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    font-size: 17px;
+    line-height: 294%;
+    letter-spacing: -0.03em;
+    color: #696871;
+}
+
+.planCard button {
+    border: 1px solid #eae9f2;
+    border-radius: 10px;
+    width: 285px;
+    height: 60px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #5454d4;
+}
+
+.planCard.special button {
+    width: 305px;
+    height: 60px;
+    background: #9f3919;
+    border: none;
+}
+
