@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: spinWrapper 3s linear infinite;
+}
+
+.row {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.row1 {
+    align-items: flex-start;
+}
+.row.row3 {
+    align-items: flex-end;
+}
+
+.row.row2 {
+    justify-content: space-between;
+}
+
+.cell {
+    background-color: #2a59e8;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@keyframes spinWrapper {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
