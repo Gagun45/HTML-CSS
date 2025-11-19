@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.boat {
+    width: 100px;
+    height: 100px;
+    animation: boatMove 5s linear infinite alternate;
+}
+
+.waves {
+    width: 700px;
+}
+
+@keyframes boatMove {
+    from {
+        transform: translateX(0) ;
+    }
+    12% {
+        transform: translate(80px,50px) rotate(30deg);
+    }
+    25% {
+        transform: translate(160px,0px) rotate(-30deg);
+    }
+    37% {
+        transform: translate(240px,50px) rotate(30deg);
+    }
+    50% {
+        transform: translate(320px,0px) rotate(-30deg);
+    }
+    62% {
+        transform: translate(400px,50px) rotate(30deg);
+    }
+    75% {
+        transform: translate(480px,0px) rotate(-30deg);
+    }
+    88% {
+        transform: translate(560px,50px) rotate(30deg);
+    }
+    to {
+        transform: translateX(600px);
+    }
+
+}
