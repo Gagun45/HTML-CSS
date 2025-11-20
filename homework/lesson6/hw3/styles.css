@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.w-1070 {
+    margin: 0 auto;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-1070>div{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+/*-----------login------------*/
+
+.login {
+    height: 84%;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.login img {
+    width: 60%;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form input {
+    height: 60px;
+    width: 100%;
+    padding: 0 8px;
+}
+form input[type='text'], form input[type='password'] {
+    text-overflow: ellipsis;
+}
+
+form>input::placeholder {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+form>input[type='submit'] {
+    margin-top: 12px;
+    background-color: #6cadf4;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+.login span {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: gray;
+}
+.login a {
+    color: #155694;
+    font-weight: 600;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*------register--------*/
+.register {
+    height: 14%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register a{
+    font-weight: 600;
+    color: #68b5fa;
+}
