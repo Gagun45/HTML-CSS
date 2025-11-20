@@ -5,15 +5,10 @@
     list-style-type: none;
     border: none;
 }
-html {
-    background-color: white;
-}
 button {
     font-family: "Bowlby One", sans-serif;
 }
 body {
-    width: 1440px;
-    margin: 0 auto;
     padding: 36px 0;
     background-color: #1E1E1E;
     font-family: "Bowlby One", sans-serif;
