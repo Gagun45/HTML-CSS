@@ -27,14 +27,17 @@ body {
 }
 /*--------------------------------HEADER--------------------------------*/
 header {
-    width: 100%;
+    width: 1400px;
     height: 113px;
     padding: 0 115px;
     z-index: 1;
+    background-color: #24204A;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 header span {
     text-transform: uppercase;
@@ -60,7 +63,7 @@ header nav ul a {
 /*---------------------------------------HERO-------------------------------------*/
 .hero {
     width: 100%;
-    padding: 67px 115px 101px;
+    padding: 180px 115px 101px;
     display: flex;
     align-items: center;
     gap:208px;
@@ -72,7 +75,7 @@ header nav ul a {
     gap: 32px;
 }
 
-.hero_left>button:first-of-type {
+.onePosBtn {
     border-radius: 8px;
     width: 145px;
     height: 41px;
@@ -99,7 +102,7 @@ header nav ul a {
     color: #8e88c1;
     width: 570px;
 }
-.hero_left>button:last-of-type {
+.aboutBtn {
     border-radius: 8px;
     width: 200px;
     height: 56px;
