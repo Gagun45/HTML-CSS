@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 27% 46% 27%;
+    grid-auto-rows: 22% 56% 22%;
+    grid-template-areas:
+    "header header header"
+    "aside-left main aside-right"
+    "footer footer footer"
+
+;
+}
+header, footer {
+    background-color: #D9D9D9;
+}
+main {
+    background-color: #A4A4A4;
+}
+aside {
+    background-color: #C0BDBD;
+}
+
+header {
+    grid-area: header;
+}
+footer {
+    grid-area: footer;
+}
+.aside-left {
+    grid-area: aside-left;
+}
+.aside-right {
+    grid-area: aside-right;
+}
+main {
+    grid-area: main;
+}
