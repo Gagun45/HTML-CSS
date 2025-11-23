@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+.grid {
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(2, 1fr) repeat(2, 0.5fr) repeat(2, 1fr);
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+    "header header"
+    "content-1 spam-1"
+    "content-2 spam-1"
+    "content-2 spam-2"
+    "content-3 spam-2"
+    "footer footer";
+}
+header, section, aside, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    grid-area: header;
+    background-color: #8D8484;
+    color: black;
+}
+.content-1 {
+    grid-area: content-1;
+    background-color: #776969;
+}
+.content-2 {
+    grid-area: content-2;
+    background-color: #643030;
+}
+.content-3 {
+    grid-area: content-3;
+    background-color: #441818;
+}
+.spam-1 {
+    grid-area: spam-1;
+    background-color: #937575;
+}
+.spam-2 {
+    grid-area: spam-2;
+    background-color: #644C4C;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #BDBDBD;
+    color: black;
+}
