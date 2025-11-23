@@ -4,7 +4,6 @@
 .grid {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: 22% 56% 22%;
 }
 header, footer {
