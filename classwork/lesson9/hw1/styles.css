@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 22% 56% 22%;
+}
+header, footer {
+    background-color: #D9D9D9;
+}
+main {
+    background-color: #A4A4A4;
+}
