@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding-top: 64px;
+}
+.items {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.item {
+    width: 271px;
+}
+.item img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+}
+.item h3 {
+    margin: 20px 0 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #161543;
+}
+.item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #7687a1;
+}

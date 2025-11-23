@@ -1,0 +1,17 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    body {
+        padding-top: 48px;
+    }
+    .items {
+        width: 720px;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 40px;
+    }
+    .item {
+        width: 348px;
+    }
+    .item h3 {
+        margin: 16px 0 8px 0;
+    }
+}
